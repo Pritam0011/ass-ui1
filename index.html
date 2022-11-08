@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getCountry();">
+    <section class="main-con">
+
+
+        <form id="inputForm">
+            <div class="field">
+                <label><b>Enter Your Name</b></label>
+                <input type="name" id="nameinp" required name="name"  autocomplete="off">
+            </div>
+            <div class="field">
+                <label><b>Date of Birth</b></label>
+                <input type="date" id="dateinp" required name="dob"  autocomplete="off">
+            </div>
+            <div class="field">
+                <label><b>Enter Your Country</b></label>
+                <input type="search" id="coninp" name="country" required list="conlist" autocomplete="off">
+                 
+            </div>
+            <div class="field">
+                <label><b>Resume</b></label>
+                <input type="file" id="fileinp" required name="fileinp">
+            </div>
+            
+            <button type="submit"><b>Send</b></button>
+        </form>
+        
+        
+        
+    </section>
+    <div class="ale"><b>okay alert</b></div>
+    <script src="./index.js"></script>
+</body>
+</html>
